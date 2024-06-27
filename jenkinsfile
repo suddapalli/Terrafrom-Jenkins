@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Terraform Init') {
             steps {
-                sh 'cd C:\Terraform\Jun-24-2024 && terraform init'
+                sh 'cd C:\Terraform\Jun-24-2024\Terraform-Jenkins && terraform init'
             }
         }
         stage('Terraform Apply') {
