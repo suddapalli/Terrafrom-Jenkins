@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/bkrrajmali/springbootapp.git'
+                git branch: 'main', url: 'https://github.com/suddapalli/Terrafrom-Jenkins.git'
             }
         }
         stage('Terraform Init') {
